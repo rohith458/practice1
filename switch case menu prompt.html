@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>switch case menu</title>
+</head>
+
+<body>
+    <script>
+       function hello(a, b) {
+            var a, b, add, sub, mul, div, mod, art, ch;
+            art = prompt("enter the menu")
+            add = a + b
+            sub = a - b
+            mul= a * b
+            div= a / b
+            mod = a % b
+           switch (art) {
+            case 'add':
+            document.writeln("add" + add)
+           var ch =confirm(" do you want continue")
+             break;
+             case 'sub':
+            document.writeln("sub" + sub)
+            var ch=confirm(" do you want continue")
+             break;
+             case 'mul':
+            document.writeln("mul" + mul)
+            var ch=confirm(" do you want continue")
+             break;
+             case 'div':
+            document.writeln("div" + div)
+           var ch = confirm(" do you want continue")
+             break;
+             case 'mod':
+            document.writeln("mod" + mod)
+            var ch= confirm(" do you want continue")
+             break;
+             
+           }
+        }
+        
+       hello(90,80)
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>factorialNumber</title>
+</head>
+<body>
+    <script>
+        var n;
+        n=prompt("enther the number")
+       function factorial(n) { 
+    if (n === 0) { 
+        return 1; 
+    } 
+    else { 
+        return n * factorial( n - 1 ); 
+    } 
+} 
+  
+document.writeln(factorial(n));
+    </script>
+</body>
+</html>
