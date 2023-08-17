@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>table</title>
+    <title>2 dimensional Array Table</title>
     <style>
         table {
             padding: 4px;
@@ -28,8 +28,10 @@
 
 <body>
     <div align="center" >
+        
         <h1>Student Data</h1>
         <script>
+            <!--2 dimensional array-->
             var students = [
 
                 [1001, "Mac", "mac@gmail.com", "macali1317", 7286026060],
@@ -42,6 +44,7 @@
                 [1008, "rahul", "rahul@gmail.com", "rahul1317", 8769854324],
         ]
             document.write("<table border=3><tr><th>ID</th><th>name</th><th>email</th><th>pass</th><th>phone number</th>");
+            <!--We Used ( For each)Method To choosing elements-->
             students.forEach(element => document.write("<tr><td>" + element[0] + "</td><td>" + element[1] + "</td><td>" + element[2] + "</td><td>" + element[3] + "</td><td>" + element[4] + "</td></tr>"));
             document.write("</table>"); 
         </script>
