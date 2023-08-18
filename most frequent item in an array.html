@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>most frequent item in an array</title>
+</head>
+<body>
+    <script>
+       var num;
+       num=["mango","mango","mango","apple","cherry","kiwi","jack"]
+        var a=1,b=0,item;
+        for( var i=0;i<num.length;i++){
+            for( var j=i;j<num.length;j++){
+                if (num[i]==num[j]) 
+                    b++;
+                if(a<b)
+
+                {
+                  a=b;
+                  item=num[i];
+                    
+                }
+            }
+            b=0;
+        }
+        document.write("<h1>"+item+"("+a+"items)"+"</h1>");
+    </script>
+</body>
+</html>

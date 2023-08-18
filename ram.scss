@@ -1,0 +1,10 @@
+$bgcolor: rgb(4, 66, 2);
+$fontsize: 19px;
+
+/* Use the variables */
+ body{
+  background-color: $bgcolor;
+  color: $textcolor;
+  font-size: $fontsize;
+  background-image: url("https://starsunfolded.co/wp-content/uploads/2021/07/Ram-Pothineni-1-1024x576.jpg");
+}                  

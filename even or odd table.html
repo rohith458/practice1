@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>even or odd table</title>
+    <style>
+         table {
+            padding: 20px;
+            border: 2px solid rgb(58, 155, 172);
+        }
+
+        td {
+            font-size: medium;
+            padding: 20px;
+            font-weight: bolder;
+            border: 3px solid rgb(61, 150, 20);
+        }
+      i{
+        font-style: italic;
+      }
+    </style>
+</head>
+<body>
+    <script>       
+     
+           document.write("<table align='center'>")
+        for ( i = 1; i <=10; i++) {
+        document.write("<tr>")
+          
+           if(i%2==0){
+            document.write("<td>")
+                document.write(+i)
+            document.write("</td>")
+           }
+            
+        }
+        document.write("</tr >")
+    
+         
+                for  ( i = 1; i <=10; i++) {
+                  document.write("<tr >" )
+         
+          
+           if(i%2!==0){
+            document.write("<td>")
+                document.write(+i)
+            document.write("</td>")
+           }
+            
+        }
+      
+        document.write("</tr>")
+        
+          
+    
+    </script>
+</body>
+</html>
+
