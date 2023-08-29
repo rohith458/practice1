@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login Form</title>
+
+    <script>
+        function applicationform() {
+            var x, y, m, n, a, b,male,female
+            x = document.getElementById("name").value
+            y = document.getElementById("name1").value
+            m = document.getElementById("num").value
+            n = document.getElementById("email").value
+            male=document.getElementById("r1").value
+            female=document.getElementById("r2").value
+         alret(("First Name :" + x + '\n' + "LastName :" + y + '\n' + "contact :" + m + '\n' + "email:" + n + '\n' + male+'\n'+ female + r2)) 
+        }
+        
+    </script>
+</head>
+
+<body>
+    <form >
+    <h1>FORM</h1>
+    <div id=ravi>
+        <label for="First name">First Name</label>
+        <input type="text" id="name">
+        <br><br>
+        <label for="Last Name">Last Name</label>
+        <input type="text" id="name1">
+        <br><br>
+        <label for="contact ">contact</label>
+        <input type="text" id="num">
+        <br><br>
+        <label for="email">email</label>
+        <input type="text" id="email">
+        <br><br>
+        <input  type="radio" name="male"id="r1">male
+        <input type="radio" name="female" id="r2">female
+        
+    </div>
+    <br><br>
+    <button onclick="applicationform()">save</button>
+    <input type="reset" value="reset">
+   </form>
+</body>
+
+</html>
