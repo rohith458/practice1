@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(143, 129, 126);
+    width:2px;
+    height: 1px;
+    right: 9px;
+    margin-bottom:9px ;
+    margin-top:0px;   
+}
+.cont{
+    background-color: rgb(144, 146, 142);
+    color: black;
+   margin-top: 1px;
+   display: block;
+   text-align: center;
+   padding: 15px 14px;
+   text-decoration: none;
+   float: left;
+   text-align: left;
+   text-align: justify;
+   width:500px;
+   height: 638px;
+   
+}
+.bar{
+    background-color: rgb(121, 116, 116);
+    width: 1500px;
+    margin: 7px;
+    margin-top:70px;
+    box-shadow: 5px 8px #888888;
+     border: 3px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 8px 10px #aa9292;
+     text-align: justify;
+    position: absolute;
+     left: 1px;
+     right: 8px;
+}
+
+.bor{
+background-color: rgb(144, 146, 142);
+color: rgb(14, 13, 13);
+text-align: center;
+  padding: 10px 12px;
+  margin:2px;
+  padding:6px;
+  text-align: left;
+  left: 2px;
+
+}
