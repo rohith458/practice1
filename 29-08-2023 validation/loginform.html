@@ -6,35 +6,37 @@
     <title>login From</title>
     <style>
         .container{
-            padding: 10px;
-            margin-left: 480px;
-            margin-left: 9px;
+            background-image: url("https://www.bing.com/images/search?view=detailV2&ccid=HxV79tFM&id=EECFBB7F4320921571A539DB459CACFE9D1EC242&thid=OIP.HxV79tFMPfBAIo0BBF-sOgHaEy&mediaurl=https%3a%2f%2fimages.pexels.com%2fphotos%2f443446%2fpexels-photo-443446.jpeg%3fcs%3dsrgb%26dl%3ddaylight-forest-glossy-443446.jpg%26fm%3djpg&exph=3403&expw=5266&q=nature&simid=608047183599306947&FORM=IRPRST&ck=1E7B8714B344587AFF408DB915B86DCE&selectedIndex=1" );
+            padding: 48px;
+            width: 509px;
+            height: 465px;
+            top: 200px;
+            bottom: 400px;
+            margin-left: 300px;
+            background-size: cover;
+        }
       
-           background: #ec0909; 
-           color: rgb(118, 118, 238);
-            border: 40px;
-            width: 450px;
-        }
-        .modelcontainer{
-            padding: 30px;
-        }
     </style>
 </head>
 <body>
-    <div class="container">
+   
+    <div class="container" align="center">
        <h1>login Form</h1>
-        <form class="model container" type="post">
-            Name
-            <input type="text" minlength="8" maxlength="19" required placeholder="user Name">
+        <form  method="post">
+            <label >Name :</label>
+            <input type="text" minlength="8" maxlength="19" required placeholder="user Name" >
             <br>
-            Email
-            <input type="password" minlength="8" maxlength="10" required placeholder="Email">
+            <label>Email</label> 
+            <input type="text"  required placeholder="Email" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,5}$">
+            <br>
+           <label >Password</label>
+            <input type="password" placeholder="password" pattern=".{8,}"  >
             <br>
             <input type="checkbox" checked="checked" name="Remember">RememberMe
             <br>
-            <input type="button" value="sign in" class="sign in">
+            <button type="submit" class="signup">signup</button>
         </form>
-
+        <hr>
     </div>
 </body>
 </html>
