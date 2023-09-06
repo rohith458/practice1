@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>boot strap 2 dimensional</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+    <!--bootstrap hover effect using table-->
+    <table class="table table-dark table-hover">
+        <div align="center" >
+            <h1>Student Data</h1>
+            <script >
+                var students = [
+    
+                    [1001, "Mac", "mac@gmail.com", "macali1317", 7286026060],
+                    [1002, "Hellen", "hellen@gmail.com", "hellen1317", 9876543289],
+                    [1003, "Andrew", "andrew@gmail.com", "andrew1317", 8769854321],
+                    [1004, "yakub", "yakub@gmail.com", "yakub1317", 8769854320],
+                    [1005, "harish", "harish@gmail.com", "harish1317", 8769854399],
+                    [1006, "venkata", "venkata@gmail.com", "venky1317", 8769854323],
+                    [1007, "vamsi", "vamsi@gmail.com", "vamsi1317", 8769854333],
+                    [1008, "rahul", "rahul@gmail.com", "rahul1317", 8769854324],
+            ]
+                document.write("<tr><th>ID</th><th>name</th><th>email</th><th>pass</th><th>phone number</th>");
+                  //using for each module to display elements
+                students.forEach(element => document.write("<tr><td>" + element[0] + "</td><td>" + element[1] + "</td><td>" + element[2] + "</td><td>" + element[3] + "</td><td>" + element[4] + "</td></tr>"));
+                
+            </script>
+            
+        </div>
+      </table>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>

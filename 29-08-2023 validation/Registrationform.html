@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regisytration Form</title>
+
+    <style>
+        form{
+          background-color: rgb(137, 15, 250);
+           bottom: 220px;
+           padding: 108px;
+           height: 220px;
+           width: 210px;
+           border: solid rgb(126, 255, 6);
+           margin-left: 590px;
+           
+        }
+    </style>
+</head>
+
+<body>
+    <form method="get">
+        <h3>REGISTRATION FORM</h3>
+       <label>Name</label>
+       <br>
+       <input type="text">
+       <br>
+       <label>Email</label>
+       <br>
+       <input type="text">
+       <br>
+       <label>password</label>
+       <br>
+       <input type="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,10}">
+       <br>
+       <label >age</label>
+       <br>
+       <input type="number" >
+       <br>
+       <label >Phone</label>
+       <input type="text" pattern="^(\+?\d{1,2}\d{10}$)">
+       <br>
+       <br>
+       <button type="submit">submit</button>
+    </form>
+</body>
+</html>
